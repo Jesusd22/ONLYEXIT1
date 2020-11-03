@@ -31,12 +31,12 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 **Required Must-have Stories**
 
-* Guest can search for items and buy items without having to login.
-* Users can click on items and select size and quanity.
-* User logs into account to search for items.
-* User can pick item and put into shopping cart(quanity/delete item).
-* User can check out items.
-* User can do all of the above on televison by using cast button.
+- [] Guest can search for items and buy items without having to login.
+- [] Users can click on items and select size and quanity.
+- [x] User logs into account to search for items.
+- [] User can pick item and put into shopping cart(quanity/delete item).
+- [] User can check out items.
+- [] User can do all of the above on televison by using cast button.
 
 **Optional Nice-to-have Stories**
 
