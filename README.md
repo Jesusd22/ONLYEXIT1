@@ -22,7 +22,7 @@ Allows you to shop for clothing on tv screen using Cromecast
 
 Here's a walkthrough of implementing parse into the app:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/Jesusd22/ONLYEXIT1/blob/master/walkthrough%201.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
