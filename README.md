@@ -24,6 +24,10 @@ Allows you to shop for clothing on tv screen using Cromecast
 * Shopping cart -> Jumps to checkout 
 * Profile/Settings -> Toggle settings
 
+## Item Layout Design
+<img src="C:\Users\Ken\Pictures\itemDetailScreen.PNG">
+<img src="C:\Users\Ken\Pictures\itemHomescreen.PNG">
+
 ## Wireframes
 <img src="https://i.imgur.com/nnqSklM.jpg?1" width=800><br>
 
@@ -41,7 +45,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 **Required Must-have Stories**
 
 - [] Guest can search for items and buy items without having to login.
-- [] Users can click on items and select size and quanity.
+- [x] Users can click on items and select size and quanity.
 - [x] User logs into account to search for items.
 - [] User can pick item and put into shopping cart(quanity/delete item).
 - [] User can check out items.
