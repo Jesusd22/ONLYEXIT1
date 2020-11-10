@@ -18,6 +18,15 @@ Allows you to shop for clothing on tv screen using Cromecast
 - **Habit:** This app could be used when user wants to browse/buy clothes from ONLYEXIT.  ||This app could be used as often or unoften as the user wanted depending on how deep their social life is, and what exactly they're looking for.
 - **Scope:** First we would start with getting individuals to shop the brand, get them to use castbutton to enhance shopping experince. Then get a highfasion brands to implement using the castbutton.
 
+**Flow Navigation** (Screen to Screen)
+* Forced Log-in -> Home (items)
+* Home-> Jumps to detailed items
+* Shopping cart -> Jumps to checkout 
+* Profile/Settings -> Toggle settings
+
+## Wireframes
+<img src="https://imgur.com/hH4hhKs" width=800><br>
+
 ## Video Walkthrough
 
 Here's a walkthrough of implementing parse into the app:
