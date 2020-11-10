@@ -26,7 +26,7 @@ Allows you to shop for clothing on tv screen using Cromecast
 
 ## Item Layout Design
 <img src=https://github.com/Jesusd22/ONLYEXIT1/blob/master/itemDetailScreen.PNG>
-<img src="C:\Users\Ken\Pictures\itemHomescreen.PNG">
+<img src=https://github.com/Jesusd22/ONLYEXIT1/blob/master/itemHomescreen.PNG>
 
 ## Wireframes
 <img src="https://i.imgur.com/nnqSklM.jpg?1" width=800><br>
