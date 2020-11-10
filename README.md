@@ -25,7 +25,7 @@ Allows you to shop for clothing on tv screen using Cromecast
 * Profile/Settings -> Toggle settings
 
 ## Wireframes
-<img src="https://imgur.com/hH4hhKs" width=800><br>
+<img src="https://i.imgur.com/nnqSklM.jpg?1" width=800><br>
 
 ## Video Walkthrough
 
