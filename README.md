@@ -24,18 +24,14 @@ Allows you to shop for clothing on tv screen using Cromecast
 * Shopping cart -> Jumps to checkout 
 * Profile/Settings -> Toggle settings
 
-## Item Layout Design
-<img src=https://github.com/Jesusd22/ONLYEXIT1/blob/master/itemDetailScreen.PNG>
-<img src=https://github.com/Jesusd22/ONLYEXIT1/blob/master/itemHomescreen.PNG>
-
 ## Wireframes
 <img src="https://i.imgur.com/nnqSklM.jpg?1" width=800><br>
 
 ## Video Walkthrough
 
-Here's a walkthrough of implementing parse into the app:
+Here's a walkthrough of implementing a checkout cart into the app:
 
-<img src='https://github.com/Jesusd22/ONLYEXIT1/blob/master/walkthrough%201.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src= 'https://github.com/Jesusd22/ONLYEXIT1/blob/master/walkthroughCart.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -47,8 +43,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 - [] Guest can search for items and buy items without having to login.
 - [x] Users can click on items and select size and quanity.
 - [x] User logs into account to search for items.
-- [] User can pick item and put into shopping cart(quanity/delete item).
-- [] User can check out items.
+- [x] User can pick item and put into shopping cart(quanity/delete item).
+- [x] User can check out items.
 - [] User can do all of the above on televison by using cast button.
 
 **Optional Nice-to-have Stories**
