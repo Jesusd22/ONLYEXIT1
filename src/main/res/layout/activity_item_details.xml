@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".itemDetails">
+
+    <ImageView
+        android:id="@+id/ivItemDetail"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/beanie" />
+
+    <CheckBox
+        android:id="@+id/cbSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvItemSize"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:text="Small" />
+
+    <CheckBox
+        android:id="@+id/cbMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvItemSize"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/cbSmall"
+        android:text="Medium" />
+
+    <CheckBox
+        android:id="@+id/cbLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvItemSize"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/cbMedium"
+        android:text="Large" />
+
+    <CheckBox
+        android:id="@+id/cbXtraLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvItemSize"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/cbLarge"
+        android:text="XL" />
+
+    <TextView
+        android:id="@+id/tvItemSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivItemDetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="43dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Beanie" />
+
+    <TextView
+        android:id="@+id/tvQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbSmall"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="57dp"
+        android:text="Qty." />
+
+    <EditText
+        android:id="@+id/etQuantityNum"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbMedium"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="44dp"
+        android:layout_toEndOf="@+id/tvQuantity"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnAddCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbLarge"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="44dp"
+        android:layout_toEndOf="@+id/etQuantityNum"
+        android:text="Add to Cart" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabCartDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="40dp"
+        android:background="#FFFEFE"
+        android:backgroundTint="#FFFFFF"
+        android:clickable="true"
+        android:foregroundTint="#FDFCFC"
+        app:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/cart2" />
+</RelativeLayout>
